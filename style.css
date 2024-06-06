@@ -376,4 +376,10 @@ footer .line-footer p a {
     section.habilidades {
         padding: 50px 8%;
     }
+
+    /* Sobre mim */
+
+    .img-sobre .flex{
+        flex-direction: column-reverse;
+    }
 }
