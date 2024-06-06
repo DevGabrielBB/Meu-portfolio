@@ -485,18 +485,18 @@ footer .line-footer p a {
     }
 
 
-    /* Portfolio */
-    section.portfolio {
+    /* Projeto */
+    section.projetos {
         padding: 80px 8%;
     }
 
-    .img-port {
+    .img-proj {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    section.portfolio .flex {
+    section.projetos .flex {
         gap: 60px;
     }
 
