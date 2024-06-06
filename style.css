@@ -1,0 +1,154 @@
+
+/* Estilo Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: #020F1F;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;    
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#00FFFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #FFFF;
+    font-size: 38px;
+    text-align: center;
+    padding: 40px;
+}
+
+h2.titulo span{
+    color: #00FFFF;
+}
+
+/* Estilo Cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #00ffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #FFFF;
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #00FFFF;
+    transform: scale(1.10);
+}
+
+/* Topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.topo-do-site h1{
+    color: #FFFF;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #00FFFF;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #FFFF;
+    margin: 20px 0px;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* Estilo das Habilidades*/
+
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    gap: 30px;
+}
+
+.habilidades .habilidades-box{
+    color: #FFFF;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff96;
+}
+
+.habilidades .habilidades-box h3{
+    font-style: italic;
+    margin: 15px 0
+}
+
+.habilidades .habilidades-box p{
+    font-size: 10px;
+}
