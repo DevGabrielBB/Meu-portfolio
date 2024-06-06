@@ -118,6 +118,7 @@ header nav.menu-desktop ul li {
 .btn-abrir-menu i {
     color: #00ffff;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .menu-mobile {
