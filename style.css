@@ -33,7 +33,7 @@ body{
     transition: .2s;
 }
 
-button:hover{
+button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px #00FFFF;
     transform: scale(1.10);
 }
@@ -248,3 +248,55 @@ section.projetos .flex{
 .overlay:hover{
     opacity: 1;
 }
+
+/* Estilo Formulário */
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #393b3da8;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #FFFF;
+    font-size: 14px;
+}
+
+form input::placeholder{
+    /*Estilizar a cor da mensagem que fica dentro dos campos*/
+}
+
+form textarea{
+    resize:none;
+    max-height: 180px;
+    height: 180px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #00FFFF;
+    color: #000000;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .2s;
+}
+
