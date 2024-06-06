@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/python-%23323330.svg?style=for-the-badge&logo=python&logoColor=%23F7DF1E" />
-<img src="https://img.shields.io/badge/java%C3%B3lio-brown?style=for-the-badge&logo=java&logoColor=%23E34F26" />
+<img src="https://img.shields.io/badge/java-brown.svg?style=for-the-badge&logo=java&logoColor=%23E34F26" />
   
  
   
