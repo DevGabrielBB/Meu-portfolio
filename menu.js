@@ -1,4 +1,3 @@
-//Faz com que o menu mobile tenha as funçoes de clicar, aparecer, ocultar, etc... 
 let btnMenu = document.getElementById('btn-menu')
 let menu = document.getElementById('menu-mobile')
 let overlay = document.getElementById('overlay-menu')
